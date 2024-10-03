@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="extended_attendance_assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/extended_attendance/static/src/js/my_attendances.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
